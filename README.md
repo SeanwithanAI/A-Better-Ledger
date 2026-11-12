@@ -55,9 +55,29 @@ It can bring in your history from **Actual Budget**, and export a file Actual ca
 
 <sub>Screenshots use made-up example data.</sub>
 
+## Future pay and taxes
+
+Future pay shows how your salary moves through your employer's pay ranges, and what each paycheck will actually be after taxes and deductions. Everything is set under **Future pay → Paycheck details**.
+
+| Setting | What you can enter |
+|---|---|
+| **Federal (W-4)** | Filing status (Single, Married filing jointly, Head of household), the Step 2 "two jobs" box, Step 3 dependent credits, Step 4(a) other income, Step 4(b) deductions and Step 4(c) extra withholding. |
+| **Social Security and Medicare** | Social Security stops at the yearly wage limit ($184,500 in 2026), and the extra 0.9% Medicare starts above $200,000. A switch turns off Social Security for jobs that don't pay into it (some teachers, police, firefighters and government jobs). |
+| **State** | Any of the 50 states or DC, with your state filing status, dependents and extra state withholding. States with no income tax on wages are marked. |
+| **Paid leave / disability** | Your state's employee rate fills in when you pick the state (for example California SDI 1.3%, New York paid family leave 0.432%, Paid Leave Oregon 0.6%). You can change it to match your paystub. |
+| **Local income tax** | A % for city, county or school-district wage taxes. A note points it out for states where these are common (Maryland, Ohio, Pennsylvania, Michigan, New York City and others). |
+| **Retirement** | Any plan you name (PERA, 401(k), 403(b), 457, TRS…), the % you put in, and whether it's **pre-tax** or **Roth**. Extra 401(k), 457 or HSA amounts can also be added as deductions. |
+| **Pay and deductions** | Extra pay items (taxed, not taxed, or taxable benefits) and deductions (pre-tax health, pre-tax retirement, after-tax), on every paycheck or only the last one of the month. |
+
+**How accurate it is**
+- **Federal** follows the IRS's 2026 payroll tables (Publication 15-T) and should match your paystub.
+- **Minnesota** uses the state's own payroll formula and matches a real paystub to the cent.
+- **Other states** are estimated from each state's 2026 tax brackets, standard deduction and exemptions, applied to a year of pay. They're usually within a few dollars a paycheck of what your employer withholds, but they don't use each state's own payroll formula. Pennsylvania's tax on retirement contributions and Oregon's federal-tax subtraction are included.
+- **Future years** raise the tax brackets by the % you choose (2.5% by default). Withholding is not your final tax bill.
+
 ## Getting started
 
-**Option 1: open the file.** Download `A_Better_Ledger_<date>_<mk>_by_SeanwithanAI.html` and open it in any modern browser. Click **Import from Actual Budget** or **Start with an empty account**.
+**Option 1: open the file.** Download the newest `A_Better_Ledger_<date>_by_SeanwithanAI.html` (or `…_<date>_mkN_by_…` for a later release that day) and open it in any modern browser. Click **Import from Actual Budget** or **Start with an empty account**.
 
 **Option 2: host it on PageVault (recommended).** Install it as an app in [PageVault](#hosting-on-pagevault) on your own server. Your ledger is then saved on your server, follows you to any device, and each family member gets their own private ledger.
 
