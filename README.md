@@ -4,7 +4,7 @@
 
 **Budget and Planner: a private, single-file replacement for Monarch and Actual Budget**
 
-![Version](https://img.shields.io/badge/version-2026--11--12%20mk7-15803D)
+![Version](https://img.shields.io/badge/version-2026--11--12-15803D)
 ![Single file](https://img.shields.io/badge/single%20file-HTML-0B3D2E)
 ![No account needed](https://img.shields.io/badge/no%20sign--up-required-334155)
 ![PageVault ready](https://img.shields.io/badge/PageVault-ready-2563eb)
@@ -79,10 +79,11 @@ PageVault watches this repository and installs new versions automatically (or wi
 
 ## Versioning
 
-Every release is a new file named with the release date, plus `mkN` when there's more than one release that day:
+Every release is a new file named with the release date. The first release of a day is just the date; later releases that same day add `mk1`, `mk2`, `mk3`… (the count starts over each day):
 
 ```
-A_Better_Ledger_2026-11-12_mk7_by_SeanwithanAI.html
+A_Better_Ledger_2026-11-12_by_SeanwithanAI.html        first release on Nov 12
+A_Better_Ledger_2026-11-12_mk1_by_SeanwithanAI.html    second release that day
                 └──date──┘ └mk┘
 ```
 
@@ -90,7 +91,7 @@ The same version appears in the app's sidebar and footer. Older files stay in th
 
 | Version | Notes |
 |---|---|
-| **2026-11-12 mk7** | Future pay works for every state: pick your state (all 50 + DC, 2026 brackets), state filing status, Head of household, W-4 Steps 2–4, Social Security wage cap and on/off switch, any retirement plan (pre-tax or Roth), state paid leave and local income tax. Minnesota keeps its exact paystub formula; saved PERA/MN settings carry over. |
+| **2026-11-12** | Future pay works for every state: pick your state (all 50 + DC, 2026 brackets), state filing status, Head of household, W-4 Steps 2–4, Social Security wage cap and on/off switch, any retirement plan (pre-tax or Roth), state paid leave and local income tax. Minnesota keeps its exact paystub formula; saved PERA/MN settings carry over. |
 | **2026-11-11 mk6** | Saves to the PageVault server (data and attachments) when hosted there, with no browser copy. Behaves as before everywhere else. |
 
 ---
