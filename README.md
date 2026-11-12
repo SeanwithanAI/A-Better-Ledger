@@ -4,7 +4,7 @@
 
 **Budget and Planner: a private, single-file replacement for Monarch and Actual Budget**
 
-![Version](https://img.shields.io/badge/version-2026--11--11%20mk6-15803D)
+![Version](https://img.shields.io/badge/version-2026--11--12%20mk7-15803D)
 ![Single file](https://img.shields.io/badge/single%20file-HTML-0B3D2E)
 ![No account needed](https://img.shields.io/badge/no%20sign--up-required-334155)
 ![PageVault ready](https://img.shields.io/badge/PageVault-ready-2563eb)
@@ -40,7 +40,7 @@ It can bring in your history from **Actual Budget**, and export a file Actual ca
 | | |
 |---|---|
 | **Retirement** | Projects your savings to retirement age and tells you whether you're on track, and roughly how much more to invest if you're not. |
-| **Future pay** | Plans upcoming paychecks and take-home pay, and can feed expected income into the budget. |
+| **Future pay** | Plans upcoming paychecks and take-home pay for any US state (federal W-4, state income tax, paid leave, local tax, any retirement plan), and can feed expected income into the budget. |
 
 ### Also included
 - **Import from Actual Budget**, and **export** a file Actual can import.
@@ -82,7 +82,7 @@ PageVault watches this repository and installs new versions automatically (or wi
 Every release is a new file named with the release date, plus `mkN` when there's more than one release that day:
 
 ```
-A_Better_Ledger_2026-11-11_mk6_by_SeanwithanAI.html
+A_Better_Ledger_2026-11-12_mk7_by_SeanwithanAI.html
                 └──date──┘ └mk┘
 ```
 
@@ -90,6 +90,7 @@ The same version appears in the app's sidebar and footer. Older files stay in th
 
 | Version | Notes |
 |---|---|
+| **2026-11-12 mk7** | Future pay works for every state: pick your state (all 50 + DC, 2026 brackets), state filing status, Head of household, W-4 Steps 2–4, Social Security wage cap and on/off switch, any retirement plan (pre-tax or Roth), state paid leave and local income tax. Minnesota keeps its exact paystub formula; saved PERA/MN settings carry over. |
 | **2026-11-11 mk6** | Saves to the PageVault server (data and attachments) when hosted there, with no browser copy. Behaves as before everywhere else. |
 
 ---
