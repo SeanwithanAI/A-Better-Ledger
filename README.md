@@ -4,7 +4,7 @@
 
 **Budget and Planner: a private, single-file replacement for Monarch and Actual Budget**
 
-![Version](https://img.shields.io/badge/version-2026--11--13%20mk1-15803D)
+![Version](https://img.shields.io/badge/version-2026--11--14-15803D)
 ![Single file](https://img.shields.io/badge/single%20file-HTML-0B3D2E)
 ![No account needed](https://img.shields.io/badge/no%20sign--up-required-334155)
 ![PageVault ready](https://img.shields.io/badge/PageVault-ready-2563eb)
@@ -46,6 +46,7 @@ It can bring in your history from **Actual Budget**, and export a file Actual ca
 - **Import from Actual Budget**, and **export** a file Actual can import.
 - **Backup and restore** to a single JSON file.
 - **Day, Dark and Auto** themes. Works on phones, tablets and desktops.
+- **Download this app.** In **Data → Back up**, download the HTML file for the version you're using, to keep or to run on its own. In PageVault it's the exact file that's installed. Your data isn't in it, so back up for that.
 
 ## Screenshots
 
@@ -112,6 +113,7 @@ The same version appears in the app's sidebar and footer. Older files stay in th
 
 | Version | Notes |
 |---|---|
+| **2026-11-14** | **Download this app** in **Data → Back up**: the HTML file for this version, to keep or run on its own. |
 | **2026-11-13 mk1** | Card payments as pending: ticked cards show their next payment as a pending payment on the account you choose. You'll see *−$X pending · $Y after* under that account's balance on Accounts and Overview, and pending rows with running balances at the top of its transactions. Replaces the payoff preview box. Nothing is recorded until you use **Pay**. |
 | **2026-11-13** | Credit card payoff preview: tick the cards you'd pay, pick the account it comes from and *Next payment* or *Full balance*, and add any pending charges your bank shows that aren't in the ledger yet. *If you paid these now* shows that account's balance after paying (red if it isn't enough), and Overview shows the same number. Preview only, nothing is paid. |
 | **2026-11-12 mk2** | Pension autofills from Future pay. Choose what it's based on (final year, or highest 3, 4, 5, 8 or 10 years). The pension shows a yearly amount when it starts plus the same in today's money, on both Retirement and Future pay. *At retirement* adds today's-money values for your final salary, the average and each year. Retirement tiles say which are in today's money, and *Needed at retirement* also shows future dollars. |
