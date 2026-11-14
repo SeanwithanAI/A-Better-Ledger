@@ -88,7 +88,6 @@ Future pay shows how your salary moves through your employer's pay ranges, and w
 | Opened from… | Saved to | Status shown in the app |
 |---|---|---|
 | **PageVault** | Your own server, separately for each signed-in person. Nothing is kept in the browser. | *Saved to your server* |
-| **Claude** | Your Claude account, with this browser as a backup | *Saved to your account* |
 | **A local file** | This browser only | *Saved on this device only* |
 
 When data lives in only one browser, the app reminds you every 7 days to download a backup.
