@@ -4,7 +4,7 @@
 
 **Budget and Planner: a private, single-file replacement for Monarch and Actual Budget**
 
-![Version](https://img.shields.io/badge/version-2026--11--15%20mk2-15803D)
+![Version](https://img.shields.io/badge/version-2026--11--15%20mk3-15803D)
 ![Single file](https://img.shields.io/badge/single%20file-HTML-0B3D2E)
 ![No account needed](https://img.shields.io/badge/no%20sign--up-required-334155)
 ![PageVault ready](https://img.shields.io/badge/PageVault-ready-2563eb)
@@ -33,7 +33,7 @@ It can bring in your history from **Actual Budget**, and export a file Actual ca
 | **Cash flow** | Money in against money out, month by month. |
 | **Spending** | Spending by category or group for the year, with monthly trends and a year-over-year comparison. |
 | **Budget** | Monthly amounts per category, grouped (Bills, Everyday…). Fill empty months from your 3-month average, and save up for irregular bills. |
-| **Recurring** | Scheduled transactions (rent, subscriptions, paychecks) added automatically when they come due. Annual and twice-a-year bills can be **saved up for every month**: the yearly total ÷ 12 becomes the category's budget, with a check that the money will be there in time. |
+| **Recurring** | Scheduled transactions (rent, subscriptions, paychecks) added automatically when they come due. Annual and twice-a-year bills can be **saved up for every month** (the yearly total ÷ 12), and monthly bills in the same category added in, to set the category's budget, with a check that the money will be there in time. |
 | **Accounts** | Checking, savings, credit cards with payment tracking, and off-budget accounts such as investments and loans. Tick a credit card and its next payment shows as **pending** on the account you pay from (Checking by default): under its balance on Accounts and Overview, and as pending rows at the top of its transactions, with the balance after. |
 
 ### Planning
@@ -113,6 +113,7 @@ The same version appears in the app's sidebar and footer. Older files stay in th
 
 | Version | Notes |
 |---|---|
+| **2026-11-15 mk3** | **Monthly bills count too.** Recurring monthly bills (like phone installments and subscriptions) can be counted in their category's budget alongside the annual ones, with a one-tap **Count them** on Recurring. **Savings gets what's left:** turn on *Save whatever is left over* for a savings category and its plan becomes the month's income minus everything else you've planned, so raising a category lowers savings automatically. |
 | **2026-11-15 mk2** | Same as 2026-11-15 mk1, re-released so PageVault picks up the update. |
 | **2026-11-15 mk1** | **Saving up for bills.** Mark an annual, twice-a-year or every-few-months recurring bill as **Save up for it every month**: its category's budget becomes the yearly total of those bills ÷ 12 and rolls over, so the money is there when it's due. A **Saving up for bills** card on Recurring shows each category's monthly and yearly amounts, what's set aside, and whether you'll be short before the next bill, with a one-tap catch-up. |
 | **2026-11-15** | **Phone keyboard fix.** Pop-up forms now fit above the on-screen keyboard and keep the field you're typing in visible, instead of sliding it out of view on iPhone. |
