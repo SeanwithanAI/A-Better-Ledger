@@ -84,6 +84,28 @@ Future pay shows how your salary moves through your employer's pay ranges, and w
 
 **Option 2: host it on PageVault (recommended).** Install it as an app in [PageVault](#hosting-on-pagevault) on your own server. Your ledger is then saved on your server, follows you to any device, and each family member gets their own private ledger.
 
+## Opening the file on your devices
+
+The app is one self-contained `.html` file: no install, no account, nothing else to download. Grab the newest `A_Better_Ledger_<date>_by_SeanwithanAI.html` (later releases the same day end in `mkN`): open it in the file list above, then use the **Download raw file** button (↓) at the top right of the file view.
+
+**Desktop (Windows, macOS, Linux)**
+1. Download the file and move it somewhere permanent, like Documents.
+2. Double-click it. It opens in your default browser (Chrome, Edge, Firefox, Safari and Brave all work).
+3. Bookmark it, and always open it the same way: same file, same place, same browser. Your data is saved in that browser for that file, so a copy in another folder or another browser starts empty.
+
+**iPhone and iPad**
+Safari can't run a downloaded `.html` file. Tapping it in the Files app only shows a preview with the buttons turned off. Use one of these instead:
+- **PageVault (recommended).** Open the app's PageVault link in Safari, tap **Share → Add to Home Screen**, and it opens like a regular app. Your data is saved on your server and syncs with your other devices.
+- **Microsoft Edge.** Save the file to the Files app, then open it with Edge (in Files, tap and hold the file → **Share** → **Edge**). Keep backups: data saved this way can be lost if Edge clears its storage.
+
+**Android**
+1. Download the file in Chrome.
+2. Open it from Chrome: **⋮ → Downloads** and tap the file (or from the Files app, **Open with → Chrome**).
+3. Open it from Chrome's Downloads each time. A home-screen shortcut to a downloaded file may stop working after Chrome restarts.
+4. Turn on backups (the app reminds you every 7 days), or use **PageVault** and **⋮ → Add to Home screen** so your data lives on your server instead.
+
+**Moving to another device:** download a backup in the app, open the same version on the new device, and restore the backup there. With PageVault there's nothing to move.
+
 ## Where your data is stored
 
 | Opened from… | Saved to | Status shown in the app |
