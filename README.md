@@ -4,10 +4,12 @@
 
 **Budget and Planner: a private, single-file replacement for Monarch and Actual Budget**
 
-![Version](https://img.shields.io/badge/version-2026--11--16%20mk2-15803D)
+![Version](https://img.shields.io/badge/version-2026--11--16%20mk3-15803D)
 ![Single file](https://img.shields.io/badge/single%20file-HTML-0B3D2E)
 ![No account needed](https://img.shields.io/badge/no%20sign--up-required-334155)
 ![PageVault ready](https://img.shields.io/badge/PageVault-ready-2563eb)
+
+**[▶ Open it online](https://seanwithanai.github.io/A-Better-Ledger/)** · nothing to install · your data stays on your device
 
 *by SeanwithanAI*
 
@@ -86,6 +88,10 @@ Future pay shows how your salary moves through your employer's pay ranges, and w
 
 ## Opening the file on your devices
 
+**Easiest: the web link.** Open **[seanwithanai.github.io/A-Better-Ledger](https://seanwithanai.github.io/A-Better-Ledger/)** on any phone, tablet or computer. It's this same app, served by GitHub, and it always has the newest version. Nothing is sent anywhere: your data is saved in that browser on that device, just like the downloaded file. On iPhone or iPad, open it in Safari, tap **Share** (on iOS 26 and later, tap **•••** first), then **Add to Home Screen** to keep it like an app. On Android, use Chrome's **⋮ → Add to Home screen**.
+
+Prefer to keep your own copy of the file? The steps below cover that.
+
 The app is one self-contained `.html` file: no install, no account, nothing else to download. Grab the newest `A_Better_Ledger_<date>_by_SeanwithanAI.html` (later releases the same day end in `mkN`): open it in the file list above, then use the **Download raw file** button (↓) at the top right of the file view.
 
 **Desktop (Windows, macOS, Linux)**
@@ -95,7 +101,8 @@ The app is one self-contained `.html` file: no install, no account, nothing else
 
 **iPhone and iPad**
 **Because of iOS, an HTML file saved on your iPhone or iPad can't be opened in Safari.** iOS doesn't offer Safari as a way to open it, and tapping the file in the Files app only shows a preview with the buttons turned off. Use one of these instead:
-- **PageVault (recommended).** Open the app's PageVault link in **Safari**, then tap **Share** (on iOS 26, tap **•••** first, then **Share**). Scroll down the list and tap **Add to Home Screen**. If it isn't there, tap **Edit Actions** at the bottom of the list and add it. It then opens like a regular app, and your data is saved on your server and syncs with your other devices.
+- **The web link (recommended).** See above.
+- **PageVault.** Open the app's PageVault link in **Safari**, then tap **Share** (on iOS 26, tap **•••** first, then **Share**). Scroll down the list and tap **Add to Home Screen**. If it isn't there, tap **Edit Actions** at the bottom of the list and add it. It then opens like a regular app, and your data is saved on your server and syncs with your other devices.
 - **Microsoft Edge (may work).** Save the file to the Files app, then try opening it with Edge (in Files, open the file, tap **Share** and choose **Edge**). Keep backups: data saved this way can be lost if Edge clears its storage.
 
 **Android**
@@ -131,10 +138,11 @@ A_Better_Ledger_2026-11-12_mk1_by_SeanwithanAI.html    second release that day
                 └──date──┘ └mk┘
 ```
 
-The same version appears in the app's sidebar and footer. Older files stay in the repo, so any version can be restored (PageVault: **Updates → Install this version**).
+`docs/index.html` is always a copy of the newest version: it's what the web link opens. The same version appears in the app's sidebar and footer. Older files stay in the repo, so any version can be restored (PageVault: **Updates → Install this version**).
 
 | Version | Notes |
 |---|---|
+| **2026-11-16 mk3** | **Use it online.** The app now has a web link, [seanwithanai.github.io/A-Better-Ledger](https://seanwithanai.github.io/A-Better-Ledger/), that works on any device, including iPhone and iPad, and always has the newest version. The preview shown when the file can't run points to it. |
 | **2026-11-16 mk2** | The preview now says plainly that, because of iOS, an HTML file saved on an iPhone or iPad can't be opened in Safari, and points to PageVault instead. |
 | **2026-11-16 mk1** | The preview shown when the file can't run (like in the iPhone Files app) now explains how to open it on a computer, Android, iPhone and iPad. |
 | **2026-11-16** | **Privacy clean-up.** No card names or paycheck amounts are built in any more: new installs start with neutral take-home defaults, and Monarch imports match a card like “Visa Signature (...1234)” to an account you already have with that name. Your saved accounts, cards and pay settings are unchanged. |
