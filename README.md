@@ -130,12 +130,31 @@ PageVault watches this repository and installs new versions automatically (or wi
 
 ## Versioning
 
-Only the newest release is kept here: `A_Better_Ledger_2026-11-16_mk3_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
+Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-16_mk3_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
 
 Releases are named with their date. The first release of a day is just the date; later releases that same day add `mk1`, `mk2`, `mk3`… (the count starts over each day). The version is also shown inside the app.
 
+### Changelog
+
+Every release so far, newest first. Older releases are listed for reference; only the current one is available to download.
+
 | Version | Notes |
 |---|---|
-| **2026-11-16 mk3** | Current release. |
+| **2026-11-16 mk3** | **Use it online.** The app now has a web link, [seanwithanai.github.io/A-Better-Ledger](https://seanwithanai.github.io/A-Better-Ledger/), that works on any device, including iPhone and iPad, and always has the newest version. The preview shown when the file can't run points to it. |
+| **2026-11-16 mk2** | The preview now says plainly that, because of iOS, an HTML file saved on an iPhone or iPad can't be opened in Safari, and points to PageVault instead. |
+| **2026-11-16 mk1** | The preview shown when the file can't run (like in the iPhone Files app) now explains how to open it on a computer, Android, iPhone and iPad. |
+| **2026-11-16** | **Privacy clean-up.** No card names or paycheck amounts are built in any more: new installs start with neutral take-home defaults, and Monarch imports match a card like “Visa Signature (...1234)” to an account you already have with that name. Your saved accounts, cards and pay settings are unchanged. |
+| **2026-11-15 mk3** | **Monthly bills count too.** Recurring monthly bills (like phone installments and subscriptions) can be counted in their category's budget alongside the annual ones, with a one-tap **Count them** on Recurring. **Savings gets what's left:** turn on *Save whatever is left over* for a savings category and its plan becomes the month's income minus everything else you've planned, so raising a category lowers savings automatically. |
+| **2026-11-15 mk2** | Same as 2026-11-15 mk1, re-released so PageVault picks up the update. |
+| **2026-11-15 mk1** | **Saving up for bills.** Mark an annual, twice-a-year or every-few-months recurring bill as **Save up for it every month**: its category's budget becomes the yearly total of those bills ÷ 12 and rolls over, so the money is there when it's due. A **Saving up for bills** card on Recurring shows each category's monthly and yearly amounts, what's set aside, and whether you'll be short before the next bill, with a one-tap catch-up. |
+| **2026-11-15** | **Phone keyboard fix.** Pop-up forms now fit above the on-screen keyboard and keep the field you're typing in visible, instead of sliding it out of view on iPhone. |
+| **2026-11-14 mk1** | **Download app + data (.zip)** replaces Download this app: one click gives a zip with the app's HTML, your backup and a how-to-restore note. |
+| **2026-11-14** | **Download this app** in **Data → Back up**: the HTML file for this version, to keep or run on its own. |
+| **2026-11-13 mk1** | Card payments as pending: ticked cards show their next payment as a pending payment on the account you choose. You'll see *−$X pending · $Y after* under that account's balance on Accounts and Overview, and pending rows with running balances at the top of its transactions. Replaces the payoff preview box. Nothing is recorded until you use **Pay**. |
+| **2026-11-13** | Credit card payoff preview: tick the cards you'd pay, pick the account it comes from and *Next payment* or *Full balance*, and add any pending charges your bank shows that aren't in the ledger yet. *If you paid these now* shows that account's balance after paying (red if it isn't enough), and Overview shows the same number. Preview only, nothing is paid. |
+| **2026-11-12 mk2** | Pension autofills from Future pay. Choose what it's based on (final year, or highest 3, 4, 5, 8 or 10 years). The pension shows a yearly amount when it starts plus the same in today's money, on both Retirement and Future pay. *At retirement* adds today's-money values for your final salary, the average and each year. Retirement tiles say which are in today's money, and *Needed at retirement* also shows future dollars. |
+| **2026-11-12 mk1** | Future pay projects to your retirement: an *At retirement* card (age and retire age shared with Retirement), salary when you retire, and the average of your last 5 years, broken out year by year. A *To retire* view runs the chart and raise table through retirement. The Retirement calculator can use that 5-year average for the pension (*Use my Future pay projection*) instead of a flat raise %. |
+| **2026-11-12** | Future pay works for every state: pick your state (all 50 + DC, 2026 brackets), state filing status, Head of household, W-4 Steps 2–4, Social Security wage cap and on/off switch, any retirement plan (pre-tax or Roth), state paid leave and local income tax. Minnesota keeps its exact formula; older saved settings carry over. |
+| **2026-11-11 mk6** | Saves to the PageVault server (data and attachments) when hosted there, with no browser copy. Behaves as before everywhere else. |
 
 <div align="center"><sub>A Better Ledger · Budget and Planner · by SeanwithanAI</sub></div>
