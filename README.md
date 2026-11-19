@@ -4,7 +4,7 @@
 
 **Budget and Planner: a private, single-file replacement for Monarch and Actual Budget**
 
-![Version](https://img.shields.io/badge/version-2026--11--16%20mk5-15803D)
+![Version](https://img.shields.io/badge/version-2026--11--19-15803D)
 ![Single file](https://img.shields.io/badge/single%20file-HTML-0B3D2E)
 ![No account needed](https://img.shields.io/badge/no%20sign--up-required-334155)
 ![PageVault ready](https://img.shields.io/badge/PageVault-ready-2563eb)
@@ -35,7 +35,7 @@ It can bring in your history from **Actual Budget**, and export a file Actual ca
 | **Cash flow** | Money in against money out, month by month. |
 | **Spending** | Spending by category or group for the year, with monthly trends and a year-over-year comparison. |
 | **Budget** | Monthly amounts per category, grouped (Bills, Everyday…). Fill empty months from your 3-month average, and save up for irregular bills. |
-| **Recurring** | Scheduled transactions (rent, subscriptions, paychecks) added automatically when they come due. Annual and twice-a-year bills can be **saved up for every month** (the yearly total ÷ 12), and monthly bills in the same category added in, to set the category's budget, with a check that the money will be there in time. |
+| **Recurring** | Scheduled transactions (rent, subscriptions, paychecks) added automatically when they come due. Annual and twice-a-year bills can be **saved up for every month** (the yearly total ÷ 12), and monthly bills in the same category added in, plus an optional **extra each month** (for costs without a set bill, like car repairs), to set the category's budget, with a check that the money will be there in time. |
 | **Accounts** | Checking, savings, credit cards with payment tracking, and off-budget accounts such as investments and loans. Tick a credit card and its next payment shows as **pending** on the account you pay from (Checking by default): under its balance on Accounts and Overview, and as pending rows at the top of its transactions, with the balance after. |
 
 ### Planning
@@ -130,7 +130,7 @@ PageVault watches this repository and installs new versions automatically (or wi
 
 ## Versioning
 
-Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-16_mk5_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
+Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-19_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
 
 Releases are named with their date. The first release of a day is just the date; later releases that same day add `mk1`, `mk2`, `mk3`… (the count starts over each day). The version is also shown inside the app.
 
@@ -140,6 +140,7 @@ Every release so far, newest first. Older releases are listed for reference; onl
 
 | Version | Notes |
 |---|---|
+| **2026-11-19** | **Save extra on top of your bills.** A category that saves up for its bills can now also put aside a set amount every month, for costs without a set bill (like car repairs). Tap the category on the Budget page, or **+ Save extra each month** under Recurring → Bills in your budget, and enter the amount. The category's budget becomes its bills ÷ 12 plus the extra, it rolls over with the rest, and it shows as "+ $68 extra" on the Budget page. The check that the money will be there for each bill doesn't count the extra, so it stays set aside for those other costs. |
 | **2026-11-16 mk5** | PageVault save status is accurate: a change on its way now shows **Saving to your server…** instead of briefly saying **Can't reach your server**, which only appears if a change still hasn't gone through after 10 seconds. |
 | **2026-11-16 mk4** | **No attachment size limit, and backups include attachments.** Receipts and files of any size can be attached (the 20 MB limit is gone). When transactions have attachments, **Download backup** makes a .zip with your data and every attachment, so they come along when you restore on another device or into PageVault; restoring puts them back. Big files are added without loading them all into memory. Without attachments the backup is a plain .json file, as before. The app asks the browser to keep its data, and says so plainly if the browser ever can't save. |
 | **2026-11-16 mk3** | **Use it online.** The app now has a web link, [seanwithanai.github.io/A-Better-Ledger](https://seanwithanai.github.io/A-Better-Ledger/), that works on any device, including iPhone and iPad, and always has the newest version. The preview shown when the file can't run points to it. |
