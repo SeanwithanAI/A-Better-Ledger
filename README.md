@@ -4,7 +4,7 @@
 
 **Budget and Planner: a private, single-file replacement for Monarch and Actual Budget**
 
-![Version](https://img.shields.io/badge/version-2026--11--20-15803D)
+![Version](https://img.shields.io/badge/version-2026--11--22-15803D)
 ![Single file](https://img.shields.io/badge/single%20file-HTML-0B3D2E)
 ![No account needed](https://img.shields.io/badge/no%20sign--up-required-334155)
 ![PageVault ready](https://img.shields.io/badge/PageVault-ready-2563eb)
@@ -21,7 +21,7 @@
 
 ## Overview
 
-A Better Ledger tracks your accounts, transactions and monthly budget, and plans for retirement and future pay. Everything is in one HTML file: there's nothing to install, no subscription, and no third party ever holds your financial data.
+A Better Ledger tracks your accounts, transactions and monthly budget, and plans for retirement, future pay and groceries. Everything is in one HTML file: there's nothing to install, no subscription, and no third party ever holds your financial data.
 
 It can bring in your history from **Actual Budget**, and export a file Actual can read back, so you're never locked in.
 
@@ -42,6 +42,7 @@ It can bring in your history from **Actual Budget**, and export a file Actual ca
 | | |
 |---|---|
 | **Retirement** | Projects your savings to retirement age and tells you whether you're on track, and roughly how much more to invest if you're not. |
+| **Groceries** | A monthly shopping list built from the meals you make. Add what you buy (pack size and price) and each meal's ingredients, recipe and how often you eat it (meals for guests included); it works out how much of each item you need a month, how many packs to buy, and what it all costs a month, week and day. Change a price and everything updates. Set a grocery budget, see if you're over or under, and copy the total into your budget category in one tap. Plans can be shared as a file, and the shopping list exported as a spreadsheet (.csv). |
 | **Future pay** | Plans upcoming paychecks and take-home pay for any US state (federal W-4, state income tax, paid leave, local tax, any retirement plan), and can feed expected income into the budget. Projects your pay all the way to the year you retire and averages your last 5 years for the Retirement calculator. |
 
 ### Also included
@@ -55,6 +56,8 @@ It can bring in your history from **Actual Budget**, and export a file Actual ca
 | Spending by category | Overview |
 |---|---|
 | ![Spending by category for the year, with Rent highlighted and a monthly chart](docs/screenshots/spending.png) | ![Monthly overview](docs/screenshots/overview.png) |
+
+![Groceries: the monthly cost, cost a day and week, and a shopping list with prices you can edit and how much of each item to buy](docs/screenshots/groceries.png)
 
 <sub>Screenshots use made-up example data.</sub>
 
@@ -79,6 +82,22 @@ Future pay shows how your salary moves through your employer's pay ranges, and w
 - **Minnesota** uses the state's own payroll formula and matches the state's withholding to the cent.
 - **Other states** are estimated from each state's 2026 tax brackets, standard deduction and exemptions, applied to a year of pay. They're usually within a few dollars a paycheck of what your employer withholds, but they don't use each state's own payroll formula. Pennsylvania's tax on retirement contributions and Oregon's federal-tax subtraction are included.
 - **Future years** raise the tax brackets by the % you choose (2.5% by default). Withholding is not your final tax bill.
+
+## Groceries
+
+**Planning → Groceries** turns the meals you eat into a monthly shopping list and a grocery budget. It works for any store and any diet; nothing is built in except an example plan you can load to see how it works.
+
+1. **Add what you buy.** For each item, enter what a pack is (a bag, a 12-pack…), how much is in it and what it's measured in (6.5 lb, 12 each, 135 tbsp…), and the price. Use **Extra a month** for things you use but don't cook with, like coffee or snacks.
+2. **Add your meals.** Pick the items one serving uses and how much of each, how many times a month you eat it (shortcuts for every day, workdays, weekends or once a week), and the steps to make it. Calories and protein a serving are optional; fill them in and the page shows what you eat in a day.
+3. **Read the list.** For every item you see how much you need a month, how many packs that is and how many to buy, or how long one pack lasts for things like rice and oil. Totals show the cost a month, a week and a day.
+4. **Keep prices current.** Type a new price straight into the list after a shopping trip and every total updates.
+5. **Fit it in your budget.** Enter a monthly grocery budget to see if you're over or under. Pick your groceries category, add anything else paid from it (toilet paper, cleaning supplies), and one tap sets that category's budget from this month on.
+
+**Meals for guests.** Tick **For guests** on a meal (pizza or snacks for when people come over) and its cost counts in your groceries but not in your own calories and protein.
+
+**Recipes.** Tap any meal to see its ingredients for one serving and the steps, numbered. **Edit meal** changes them.
+
+**Sharing a plan.** **Import / export** downloads your plan as a file someone else can import (add it to their plan, or replace theirs), or the shopping list as a .csv for a spreadsheet. Your plan is also saved with the rest of your ledger and included in every backup.
 
 ## Getting started
 
@@ -130,7 +149,7 @@ PageVault watches this repository and installs new versions automatically (or wi
 
 ## Versioning
 
-Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-20_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
+Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-22_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
 
 Releases are named with their date. The first release of a day is just the date; later releases that same day add `mk1`, `mk2`, `mk3`… (the count starts over each day). The version is also shown inside the app.
 
@@ -140,6 +159,7 @@ Every release so far, newest first. Older releases are listed for reference; onl
 
 | Version | Notes |
 |---|---|
+| **2026-11-22** | **Groceries.** A new **Groceries** page under Planning. List what you buy with its pack size and price, then add your meals: the ingredients for one serving, how many times a month you eat it, optional calories and protein, and the recipe steps. Mark a meal **For guests** (like pizza when friends come over) and it counts in your grocery cost but not in your calories and protein. The shopping list fills in how much of each item you need a month, how many packs to buy (or how long one lasts), and the cost, with totals for the month, week and day and your daily calories and protein. Edit any price right in the list and the totals update. Set a monthly grocery budget to see if you're over or under, and pick your groceries category to set its budget to the plan's total, plus anything else that comes out of it (like toilet paper). **Import / export** downloads the plan as a file to share or move, or the shopping list as a .csv; there's an example plan to start from. |
 | **2026-11-20** | **Bills you save up for count as savings.** When a savings category gets whatever is left over, the money you put aside for annual and twice-a-year bills (in a group that sets money aside in a savings account) now shows as savings, not spending. The Budget banner reads like "$3,519 to spending and $960 to savings ($341 of it for bills you save up for)", the **Saved** tile's plan includes the bills, and money moved into that account for the bills this month counts as saved. The amount left over for savings itself is unchanged. |
 | **2026-11-19** | **Save extra on top of your bills.** A category that saves up for its bills can now also put aside a set amount every month, for costs without a set bill (like car repairs). Tap the category on the Budget page, or **+ Save extra each month** under Recurring → Bills in your budget, and enter the amount. The category's budget becomes its bills ÷ 12 plus the extra, it rolls over with the rest, and it shows as "+ $68 extra" on the Budget page. The check that the money will be there for each bill doesn't count the extra, so it stays set aside for those other costs. |
 | **2026-11-16 mk5** | PageVault save status is accurate: a change on its way now shows **Saving to your server…** instead of briefly saying **Can't reach your server**, which only appears if a change still hasn't gone through after 10 seconds. |
