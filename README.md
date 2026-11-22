@@ -4,7 +4,7 @@
 
 **Budget and Planner: a private, single-file replacement for Monarch and Actual Budget**
 
-![Version](https://img.shields.io/badge/version-2026--11--22%20mk1-15803D)
+![Version](https://img.shields.io/badge/version-2026--11--22%20mk2-15803D)
 ![Single file](https://img.shields.io/badge/single%20file-HTML-0B3D2E)
 ![No account needed](https://img.shields.io/badge/no%20sign--up-required-334155)
 ![PageVault ready](https://img.shields.io/badge/PageVault-ready-2563eb)
@@ -93,6 +93,8 @@ Future pay shows how your salary moves through your employer's pay ranges, and w
 4. **Keep prices current.** Type a new price straight into the list after a shopping trip and every total updates.
 5. **Fit it in your budget.** Enter a monthly grocery budget to see if you're over or under. Pick your groceries category and add anything else paid from it each month (toilet paper, cleaning supplies). Turn on **Fill in this category's budget from this plan** and choose the month it starts: the category's budget becomes the grocery total plus what you added, and it follows along whenever you change a price or meal. Months before that keep their own budget, and turning it off keeps the last amount. The Budget page marks the category **from Groceries**.
 
+**This week.** A week plan at the top of the page shows what to make each day, from Monday to Sunday. It's built from how often each meal is planned, so two snacks planned 15 times a month each alternate. **Next up** shows the meal to eat next for the time of day, today's meals that are done fade out, and a day with a step that starts with its name (like "Sunday batch cook") is marked as a prep day. Tap a meal to see its recipe or swap it for another meal at the same time of day. Swaps are kept for that day of the week, and **Undo my swaps** goes back to the automatic plan.
+
 **Meals for guests.** Tick **For guests** on a meal (pizza or snacks for when people come over) and its cost counts in your groceries but not in your own calories and protein.
 
 **Recipes.** Tap any meal to see its ingredients for one serving and the steps, numbered. **Edit meal** changes them.
@@ -149,7 +151,7 @@ PageVault watches this repository and installs new versions automatically (or wi
 
 ## Versioning
 
-Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-22_mk1_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
+Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-22_mk2_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
 
 Releases are named with their date. The first release of a day is just the date; later releases that same day add `mk1`, `mk2`, `mk3`… (the count starts over each day). The version is also shown inside the app.
 
@@ -159,6 +161,7 @@ Every release so far, newest first. Older releases are listed for reference; onl
 
 | Version | Notes |
 |---|---|
+| **2026-11-22 mk2** | **A week plan for your meals.** The Groceries page now opens with **This week**: pick a day to see its breakfast, lunch, snack, dinner and anytime items with their calories, plus a **Next up** card for the meal to eat next. Snacks or meals planned less than daily alternate through the week, the day's prep is called out (like a Sunday batch cook), and you can tap any meal to see the recipe or swap it for that day. Works on phones. |
 | **2026-11-22 mk1** | **Groceries fills in your budget.** On the Groceries page, pick your groceries category, add anything else paid from it each month (like toilet paper), and turn on **Fill in this category's budget from this plan**. From the month you choose, the category's budget is the grocery total plus that amount, and it updates when you change a price or a meal. The Budget page shows it as **from Groceries**; earlier months keep their own budget, and turning it off keeps the last amount. |
 | **2026-11-22** | **Groceries.** A new **Groceries** page under Planning. List what you buy with its pack size and price, then add your meals: the ingredients for one serving, how many times a month you eat it, optional calories and protein, and the recipe steps. Mark a meal **For guests** (like pizza when friends come over) and it counts in your grocery cost but not in your calories and protein. The shopping list fills in how much of each item you need a month, how many packs to buy (or how long one lasts), and the cost, with totals for the month, week and day and your daily calories and protein. Edit any price right in the list and the totals update. Set a monthly grocery budget to see if you're over or under, and pick your groceries category to set its budget to the plan's total, plus anything else that comes out of it (like toilet paper). **Import / export** downloads the plan as a file to share or move, or the shopping list as a .csv; there's an example plan to start from. |
 | **2026-11-20** | **Bills you save up for count as savings.** When a savings category gets whatever is left over, the money you put aside for annual and twice-a-year bills (in a group that sets money aside in a savings account) now shows as savings, not spending. The Budget banner reads like "$3,519 to spending and $960 to savings ($341 of it for bills you save up for)", the **Saved** tile's plan includes the bills, and money moved into that account for the bills this month counts as saved. The amount left over for savings itself is unchanged. |
