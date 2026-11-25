@@ -21,7 +21,7 @@
 
 ## Overview
 
-A Better Ledger tracks your accounts, transactions and monthly budget, and plans for retirement, future pay and groceries. Everything is in one HTML file: there's nothing to install, no subscription, and no third party ever holds your financial data.
+A Better Ledger tracks your accounts, transactions and monthly budget, and plans for retirement, future pay, your tax refund and groceries. Everything is in one HTML file: there's nothing to install, no subscription, and no third party ever holds your financial data.
 
 It can bring in your history from **Actual Budget**, and export a file Actual can read back, so you're never locked in.
 
@@ -83,6 +83,27 @@ Future pay shows how your salary moves through your employer's pay ranges, and w
 - **Minnesota** uses the state's own payroll formula and matches the state's withholding to the cent.
 - **Other states** are estimated from each state's 2026 tax brackets, standard deduction and exemptions, applied to a year of pay. They're usually within a few dollars a paycheck of what your employer withholds, but they don't use each state's own payroll formula. Pennsylvania's tax on retirement contributions and Oregon's federal-tax subtraction are included.
 - **Future years** raise the tax brackets by the % you choose (2.5% by default). Withholding is not your final tax bill.
+
+## Tax refund
+
+**Planning → Tax refund** estimates your federal and state refund, or what you'd owe, for this year and the next two. It needs **Future pay** set up, because it works from your paychecks.
+
+1. **Withholding.** Every payday in the year is built from Future pay: your salary on that date, your W-4, retirement and other deductions, and your state settings. What's withheld from each one is added up. Years with an extra payday (27 instead of 26) are called out.
+2. **What you'd owe.** The tax is worked out on the year's total, the way your return does it: taxable wages plus other income, minus the standard deduction and any other deductions, run through the brackets, minus credits.
+3. **The refund** is what was withheld minus what you'd owe, for federal and your state. If it's far from $0, it suggests a W-4 (or W-4MN) change that would bring it closer. That's optional; some people like a refund.
+
+**Make this year accurate.** Enter your latest paystub's date and year-to-date taxable wages and withholding. Only the paychecks after that date are projected. If you changed jobs during the year, add the old job's wages and withholding too.
+
+**Other income, deductions and credits.** Add interest or side income (it shows your interest from the last 12 months), deductions beyond the standard deduction, and credits like the child tax credit. These apply to every year.
+
+**Tax rules.** Built in are the 2026 federal brackets and standard deduction, Minnesota's 2026 brackets and standard deduction, and other states' 2026 rules, grown each later year by the inflation rate in Future pay. Tap **Tax rules** to:
+- type in new brackets or standard deductions when they're announced, federal or state,
+- change your filing status on the return, or
+- pick a different state for the return (withholding still follows the state in Future pay, so change it there too if you move).
+
+A year you save is used for the years after it as well, grown for inflation, until you save a later year. **Undo** goes back to the built-in rules for that year. The page shows which rules each year is using.
+
+It's an estimate to plan with, not tax advice. It leaves out credits you haven't entered, local income taxes and a spouse's income.
 
 ## Groceries
 
