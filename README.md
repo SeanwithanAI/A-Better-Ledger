@@ -4,7 +4,7 @@
 
 **Budget and Planner: a private, single-file replacement for Monarch and Actual Budget**
 
-![Version](https://img.shields.io/badge/version-2026--11--25-15803D)
+![Version](https://img.shields.io/badge/version-2026--11--25%20mk1-15803D)
 ![Single file](https://img.shields.io/badge/single%20file-HTML-0B3D2E)
 ![No account needed](https://img.shields.io/badge/no%20sign--up-required-334155)
 ![PageVault ready](https://img.shields.io/badge/PageVault-ready-2563eb)
@@ -44,6 +44,7 @@ It can bring in your history from **Actual Budget**, and export a file Actual ca
 | **Retirement** | Projects your savings to retirement age and tells you whether you're on track, and roughly how much more to invest if you're not. |
 | **Groceries** | A monthly shopping list built from the meals you make. Add what you buy (pack size and price) and each meal's ingredients, recipe and how often you eat it (meals for guests included); it works out how much of each item you need a month, how many packs to buy, and what it all costs a month, week and day. Change a price and everything updates. Set a grocery budget, see if you're over or under, and copy the total into your budget category in one tap. Plans can be shared as a file, and the shopping list exported as a spreadsheet (.csv). |
 | **Future pay** | Plans upcoming paychecks and take-home pay for any US state (federal W-4, state income tax, paid leave, local tax, any retirement plan), and can feed expected income into the budget. Projects your pay all the way to the year you retire and averages your last 5 years for the Retirement calculator. |
+| **Tax refund** | Estimates your federal and state refund (or what you'd owe) for this year and the next two. Each paycheck comes from Future pay, adding up what's withheld, and the tax you'd owe is worked out on the year's total. Enter your latest paystub's year-to-date totals, another job's pay, other income, deductions and credits to make it closer. It also suggests W-4 or W-4MN changes that would bring the refund near $0. You can type in new brackets, standard deductions, filing status or state when they change. |
 
 ### Also included
 - **Import from Actual Budget**, and **export** a file Actual can import.
@@ -151,7 +152,7 @@ PageVault watches this repository and installs new versions automatically (or wi
 
 ## Versioning
 
-Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-25_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
+Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-25_mk1_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
 
 Releases are named with their date. The first release of a day is just the date; later releases that same day add `mk1`, `mk2`, `mk3`… (the count starts over each day). The version is also shown inside the app.
 
@@ -161,6 +162,7 @@ Every release so far, newest first. Older releases are listed for reference; onl
 
 | Version | Notes |
 |---|---|
+| **2026-11-25 mk1** | **Tax refund.** A new **Planning → Tax refund** page estimates your federal and state refund, or what you'd owe, for this year and the next two. It adds up the withholding on every paycheck from Future pay (your salary on each payday, W-4, deductions and state settings), then works out the tax you'd really owe on the year's total: the 2026 federal brackets and standard deduction, Minnesota's 2026 brackets and standard deduction ($15,300 single, $30,600 married), or your state's yearly brackets. Later years grow with your Future pay inflation setting. For this year, enter your latest paystub's year-to-date wages and withholding, plus another job's if you changed jobs, and only the paychecks after it are projected. You can add other income (it shows your interest from the last 12 months), extra deductions and credits. Years with 27 paydays are called out, and it suggests W-4 or W-4MN changes to bring the refund near $0. **Tax rules** lets you type in new brackets and standard deductions when they're announced (federal and state), or change your filing status or the state on your return. A year you save is used for later years too, grown for inflation, until you save a later one, and **Undo** goes back to the built-in rules. |
 | **2026-11-25** | **Savings goals.** On the Accounts page, tap **+ Set a goal**, pick an account (like your savings account), and enter the balance you want to reach, with an optional name and a month to reach it by. The goal shows your progress and when you'd reach it two ways: **on your budget** (what's budgeted to go into the account each month, minus bills paid from it, including bills you save up for there) and **at your recent pace** (the account's average change over its last 6 full months). With a reach-by month, it tells you if you're on track or how much more to save each month. You can also link the savings category whose money goes into the account right from the goal. |
 | **2026-11-22 mk2** | **A week plan for your meals.** The Groceries page now opens with **This week**: pick a day to see its breakfast, lunch, snack, dinner and anytime items with their calories, plus a **Next up** card for the meal to eat next. Snacks or meals planned less than daily alternate through the week, the day's prep is called out (like a Sunday batch cook), and you can tap any meal to see the recipe or swap it for that day. Works on phones. |
 | **2026-11-22 mk1** | **Groceries fills in your budget.** On the Groceries page, pick your groceries category, add anything else paid from it each month (like toilet paper), and turn on **Fill in this category's budget from this plan**. From the month you choose, the category's budget is the grocery total plus that amount, and it updates when you change a price or a meal. The Budget page shows it as **from Groceries**; earlier months keep their own budget, and turning it off keeps the last amount. |
