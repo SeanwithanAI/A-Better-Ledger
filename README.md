@@ -4,7 +4,7 @@
 
 **Budget and Planner: a private, single-file replacement for Monarch and Actual Budget**
 
-![Version](https://img.shields.io/badge/version-2026--11--22%20mk2-15803D)
+![Version](https://img.shields.io/badge/version-2026--11--25-15803D)
 ![Single file](https://img.shields.io/badge/single%20file-HTML-0B3D2E)
 ![No account needed](https://img.shields.io/badge/no%20sign--up-required-334155)
 ![PageVault ready](https://img.shields.io/badge/PageVault-ready-2563eb)
@@ -36,7 +36,7 @@ It can bring in your history from **Actual Budget**, and export a file Actual ca
 | **Spending** | Spending by category or group for the year, with monthly trends and a year-over-year comparison. |
 | **Budget** | Monthly amounts per category, grouped (Bills, Everyday…). Fill empty months from your 3-month average, and save up for irregular bills. |
 | **Recurring** | Scheduled transactions (rent, subscriptions, paychecks) added automatically when they come due. Annual and twice-a-year bills can be **saved up for every month** (the yearly total ÷ 12), and monthly bills in the same category added in, plus an optional **extra each month** (for costs without a set bill, like car repairs), to set the category's budget, with a check that the money will be there in time. |
-| **Accounts** | Checking, savings, credit cards with payment tracking, and off-budget accounts such as investments and loans. Tick a credit card and its next payment shows as **pending** on the account you pay from (Checking by default): under its balance on Accounts and Overview, and as pending rows at the top of its transactions, with the balance after. |
+| **Accounts** | Checking, savings, credit cards with payment tracking, and off-budget accounts such as investments and loans. Tick a credit card and its next payment shows as **pending** on the account you pay from (Checking by default): under its balance on Accounts and Overview, and as pending rows at the top of its transactions, with the balance after. **Savings goals** set a balance to reach for an account and show when you'd get there, on your budget and at your recent pace. |
 
 ### Planning
 | | |
@@ -151,7 +151,7 @@ PageVault watches this repository and installs new versions automatically (or wi
 
 ## Versioning
 
-Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-22_mk2_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
+Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-25_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
 
 Releases are named with their date. The first release of a day is just the date; later releases that same day add `mk1`, `mk2`, `mk3`… (the count starts over each day). The version is also shown inside the app.
 
@@ -161,6 +161,7 @@ Every release so far, newest first. Older releases are listed for reference; onl
 
 | Version | Notes |
 |---|---|
+| **2026-11-25** | **Savings goals.** On the Accounts page, tap **+ Set a goal**, pick an account (like your savings account), and enter the balance you want to reach, with an optional name and a month to reach it by. The goal shows your progress and when you'd reach it two ways: **on your budget** (what's budgeted to go into the account each month, minus bills paid from it, including bills you save up for there) and **at your recent pace** (the account's average change over its last 6 full months). With a reach-by month, it tells you if you're on track or how much more to save each month. You can also link the savings category whose money goes into the account right from the goal. |
 | **2026-11-22 mk2** | **A week plan for your meals.** The Groceries page now opens with **This week**: pick a day to see its breakfast, lunch, snack, dinner and anytime items with their calories, plus a **Next up** card for the meal to eat next. Snacks or meals planned less than daily alternate through the week, the day's prep is called out (like a Sunday batch cook), and you can tap any meal to see the recipe or swap it for that day. Works on phones. |
 | **2026-11-22 mk1** | **Groceries fills in your budget.** On the Groceries page, pick your groceries category, add anything else paid from it each month (like toilet paper), and turn on **Fill in this category's budget from this plan**. From the month you choose, the category's budget is the grocery total plus that amount, and it updates when you change a price or a meal. The Budget page shows it as **from Groceries**; earlier months keep their own budget, and turning it off keeps the last amount. |
 | **2026-11-22** | **Groceries.** A new **Groceries** page under Planning. List what you buy with its pack size and price, then add your meals: the ingredients for one serving, how many times a month you eat it, optional calories and protein, and the recipe steps. Mark a meal **For guests** (like pizza when friends come over) and it counts in your grocery cost but not in your calories and protein. The shopping list fills in how much of each item you need a month, how many packs to buy (or how long one lasts), and the cost, with totals for the month, week and day and your daily calories and protein. Edit any price right in the list and the totals update. Set a monthly grocery budget to see if you're over or under, and pick your groceries category to set its budget to the plan's total, plus anything else that comes out of it (like toilet paper). **Import / export** downloads the plan as a file to share or move, or the shopping list as a .csv; there's an example plan to start from. |
