@@ -4,7 +4,7 @@
 
 **Budget and Planner: a private, single-file replacement for Monarch and Actual Budget**
 
-![Version](https://img.shields.io/badge/version-2026--11--25%20mk2-15803D)
+![Version](https://img.shields.io/badge/version-2026--11--25%20mk3-15803D)
 ![Single file](https://img.shields.io/badge/single%20file-HTML-0B3D2E)
 ![No account needed](https://img.shields.io/badge/no%20sign--up-required-334155)
 ![PageVault ready](https://img.shields.io/badge/PageVault-ready-2563eb)
@@ -95,7 +95,14 @@ Future pay shows how your salary moves through your employer's pay ranges, and w
 
 **Make this year accurate.** Enter your latest paystub's date and year-to-date taxable wages and withholding. Only the paychecks after that date are projected. If you changed jobs during the year, add the old job's wages and withholding too.
 
-**Other income, deductions and credits.** Add interest or side income (it shows your interest from the last 12 months), deductions beyond the standard deduction, and credits like the child tax credit. These apply to every year.
+**Deductions.** Enter your mortgage interest, property taxes, donations, out-of-pocket medical costs and overtime pay once a year. Each year it works out whether itemizing beats the standard deduction, separately for federal and your state, and uses the bigger one:
+- Federal itemizing adds your state income tax for the year (from the withholding it already estimates) to your property taxes, capped at $40,000 for 2025–2029 (growing 1% a year, lower above $500,000 of income, $10,000 after). Medical costs count above 7.5% of income, and from 2026 donations count above 0.5% of income.
+- Taking the standard deduction from 2026 on, up to $1,000 of donations ($2,000 married) is still deducted.
+- The overtime deduction (2025–2028) takes the extra half-pay part of your overtime, up to $12,500 ($25,000 married), phasing out above $150,000 ($300,000).
+- Minnesota itemizing leaves out state income tax, and if you take Minnesota's standard deduction, half of your donations over $500 is subtracted.
+- Other adjustments (IRA or HSA contributions you made yourself, student loan interest) lower both federal and state income.
+
+**Other income and credits.** Add interest or side income (it shows your interest from the last 12 months), and federal and state credits. Minnesota's Homestead Credit Refund (M1PR) is a separate refund and isn't included.
 
 **Tax rules.** Built in are the 2026 federal brackets and standard deduction, Minnesota's 2026 brackets and standard deduction, and other states' 2026 rules, grown each later year by the inflation rate in Future pay. Tap **Tax rules** to:
 - type in new brackets or standard deductions when they're announced, federal or state,
@@ -175,7 +182,7 @@ PageVault watches this repository and installs new versions automatically (or wi
 
 ## Versioning
 
-Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-25_mk2_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
+Only the newest release is kept in the repo: `A_Better_Ledger_2026-11-25_mk3_by_SeanwithanAI.html`. Each new release replaces it, and `docs/index.html` (what the web link opens) is updated to match. Your data isn't stored in the file, so moving to a new release keeps it (if you use the downloaded file, open the new one the same way as before, in the same browser, and download a backup first to be safe).
 
 Releases are named with their date. The first release of a day is just the date; later releases that same day add `mk1`, `mk2`, `mk3`… (the count starts over each day). The version is also shown inside the app.
 
@@ -185,6 +192,7 @@ Every release so far, newest first. Older releases are listed for reference; onl
 
 | Version | Notes |
 |---|---|
+| **2026-11-25 mk3** | **Itemized deductions in Tax refund.** Enter your mortgage interest, property taxes, donations, medical costs and overtime pay, and each year the estimate uses whichever is bigger, itemizing or the standard deduction, for federal and your state separately. Federal includes your state income tax and property taxes under the SALT cap, the 2026 donation rules and the overtime deduction; Minnesota itemizing leaves out state income tax and gives non-itemizers its donations subtraction. Also adds state tax credits and moves IRA, HSA and student loan interest to **Other adjustments**, which lower both federal and state income. |
 | **2026-11-25 mk2** | **Match your paystub, and residency.** Future pay's **Paycheck details** has a new **Match your paystub** section: type in the federal, state, Social Security, Medicare and paid-leave amounts from a regular paycheck and each tax is adjusted to match, as a percentage so it stays matched as your pay changes. Take-home pay, expected income on the Budget page and the tax refund all use the matched amounts. In **Tax refund → Tax rules** you can now say whether you lived in the state all year, part of the year or not at all; part-year residents and nonresidents pay the state's tax on the share of income earned there. |
 | **2026-11-25 mk1** | **Tax refund.** A new **Planning → Tax refund** page estimates your federal and state refund, or what you'd owe, for this year and the next two. It adds up the withholding on every paycheck from Future pay (your salary on each payday, W-4, deductions and state settings), then works out the tax you'd really owe on the year's total: the 2026 federal brackets and standard deduction, Minnesota's 2026 brackets and standard deduction ($15,300 single, $30,600 married), or your state's yearly brackets. Later years grow with your Future pay inflation setting. For this year, enter your latest paystub's year-to-date wages and withholding, plus another job's if you changed jobs, and only the paychecks after it are projected. You can add other income (it shows your interest from the last 12 months), extra deductions and credits. Years with 27 paydays are called out, and it suggests W-4 or W-4MN changes to bring the refund near $0. **Tax rules** lets you type in new brackets and standard deductions when they're announced (federal and state), or change your filing status or the state on your return. A year you save is used for later years too, grown for inflation, until you save a later one, and **Undo** goes back to the built-in rules. |
 | **2026-11-25** | **Savings goals.** On the Accounts page, tap **+ Set a goal**, pick an account (like your savings account), and enter the balance you want to reach, with an optional name and a month to reach it by. The goal shows your progress and when you'd reach it two ways: **on your budget** (what's budgeted to go into the account each month, minus bills paid from it, including bills you save up for there) and **at your recent pace** (the account's average change over its last 6 full months). With a reach-by month, it tells you if you're on track or how much more to save each month. You can also link the savings category whose money goes into the account right from the goal. |
